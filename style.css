@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Playfair+Display:400,900');
+
+body {
+  font-family: 'Heebo', sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.header {
+  margin: 50px auto;
+}
+
+.beers-list {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.beer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 28px 55px;
+  margin: 20px auto;
+  box-shadow: 0 0 5px white;
+  background-color: black;
+}
+
+.beer-image {
+  height: 300px;
+}
+
+.beer-description {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.beer-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+}
+
+.beer-ingredients {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
