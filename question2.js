@@ -1,6 +1,7 @@
 fetch(`https://api.punkapi.com/v2/beers?abv_gt=5&abv_lt=11&brewed_after=12-2015`)
   .then(response => response.json())
   .then((data) => {
+    console.log(data);
     // Present the image, title, alcoholic percentage and ingredients in a styled layout.
     data.forEach((beer, index) => {
       const beerName = beer["name"];
